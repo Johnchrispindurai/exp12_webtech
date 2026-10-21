@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 
-const API = 'http://localhost:5000/api/news';
+const API = 'https://exp12-webtech.onrender.com/api/news';
 
 function App() {
   const [news, setNews] = useState([]);
